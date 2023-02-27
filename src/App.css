@@ -83,3 +83,25 @@ p {
   line-height: 25px;
   cursor:pointer;
 }
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 10%;
+  }
+÷
+
+  .learnBtn {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+  }
+} .card-1 {
+  margin-right: 0em;
+}
+.card-2{
+  margin-left: 0.5em;
+}
+.card-3{
+margin-left: -.5em;
+}
